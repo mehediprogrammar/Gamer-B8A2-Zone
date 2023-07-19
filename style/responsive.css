@@ -23,7 +23,16 @@
      .content-section, .Games-img-container {
         flex-direction: column;
      }
-
+    
+     .icon-content, {
+             flex-direction: column;
+         
+     }
+     .footer-nav ul{
+        flex-direction: column;
+        width: 100%;
+        margin: 20px;
+     }
 }
 
 
