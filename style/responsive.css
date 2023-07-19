@@ -20,7 +20,9 @@
     .download-text, .download-text{
         width: 100%;
     }
-
+     .content-section, .Games-img-container {
+        flex-direction: column;
+     }
 
 }
 
