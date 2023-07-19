@@ -14,6 +14,12 @@
     .banner-img, .banner-text{
         width: 100%;
     }
+    .careers-container, .Artist{
+        flex-direction: column;
+    }
+    .careers-text, .careers-img{
+        width: 100%;
+    }
     .pictur-container{
         flex-direction: column;
     }
@@ -53,6 +59,12 @@
         flex-direction: column;
     }
     .banner-img, .banner-text{
+        width: 100%;
+    }
+    .careers-container, .Artist{
+        flex-direction: column;
+    }
+    .careers-text, .careers-img{
         width: 100%;
     }
     .pictur-container{
