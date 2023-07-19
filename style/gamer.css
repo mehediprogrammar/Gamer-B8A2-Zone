@@ -270,24 +270,8 @@ main{
     font-weight: 700;
 }
 /* careers section style End */
-/* images-contanet style :start */
-.images-contanet{
-    margin-top: 130px;
-    margin-bottom: 130px;
-    background: #FF900E;
-    padding: 5%;
-   
-   
-}
-.img-container p{
-    color:#FFF;
-    font-size: 18px;
-    font-weight: 400;
-}
-.img-container{
-    display: flex;
-    justify-content: space-between;
-}
+
+
 /* footer style */
 footer{
     background: #0B0223;
