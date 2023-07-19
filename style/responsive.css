@@ -8,7 +8,7 @@
         flex-direction: column;
     }
     
-    .banner-container{
+    .banner-container, .img-container{
         flex-direction: column;
     }
     .banner-img, .banner-text{
@@ -55,7 +55,7 @@
         flex-direction: column;
     }
     
-    .banner-container{
+    .banner-container, .img-container{
         flex-direction: column;
     }
     .banner-img, .banner-text{
