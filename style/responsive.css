@@ -1,4 +1,4 @@
-
+/* phone device media  */
 @media screen and (max-width:576px) {
     header{
         padding: 20px;
@@ -36,3 +36,42 @@
 }
 
 
+
+
+
+/* tablet device media  */
+@media screen and (min-width:576px) and (max-width:996px) {
+    header{
+        padding: 50px;
+    }
+    nav, nav ul
+    {
+        flex-direction: column;
+    }
+    
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-img, .banner-text{
+        width: 100%;
+    }
+    .pictur-container{
+        flex-direction: column;
+    }
+    .download-text, .download-text{
+        width: 100%;
+    }
+     .content-section, .Games-img-container {
+        flex-direction: column;
+     }
+    
+     .icon-content, {
+             flex-direction: column;
+         
+     }
+     .footer-nav ul{
+        flex-direction: column;
+        width: 100%;
+        margin: 20px;
+     }
+}
