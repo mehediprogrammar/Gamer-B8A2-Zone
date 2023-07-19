@@ -10,7 +10,7 @@
     background: #F948B2;
     padding: 21px 40px;
     gap: 10px;
-
+  text-align: center;
     border-radius: 50px;
     color: #FFF;
     font-size: 15px;
@@ -25,6 +25,7 @@
     color: #FFF;
     font-size: 15px;
     border: none;
+    text-align: center;
 }
 
 /* header section :start */
@@ -76,17 +77,29 @@ nav li {
 nav li a {
     text-decoration: none;
     color: #3C354F;
+  
 }
-
-/* this is a banner section */
-.banner {
+nav ul li a {
     margin-top: 25px;
-    background: #FFF;
-    padding: 50px 240px;
-    display: flex;
-    gap: 94px;
 }
-
+/* this is a banner section */
+.banner-container{
+   margin: 50px auto 0;
+   max-width: 1400px;
+   min-height: 50px;
+   display: flex;
+}
+.banner-text{
+    width: 50%;
+    text-align: center;
+}
+.banner-img{
+    width: 50%;
+   }
+.banner-img img{
+    width: 80%;
+    width: 80%;
+}
 #Link {
     color: #0B0223;
     font-size: 45px;
@@ -111,7 +124,8 @@ nav li a {
     display: flex;
     gap: 40px;
 }
-.banner-img-containe img {
-    height: 100%;
-    width: 100%;
+/* this is a main section style start */
+main{
+    max-width: 850px;
+    margin: 0 auto;
 }

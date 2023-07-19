@@ -1,8 +1,19 @@
+
 @media screen and (max-width:576px) {
     header{
         padding: 20px;
     }
-    nav{
+    nav, nav ul
+    {
         flex-direction: column;
     }
+    
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-img, .banner-text{
+        width: 100%;
+    }
 }
+
+
