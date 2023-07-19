@@ -14,6 +14,14 @@
     .banner-img, .banner-text{
         width: 100%;
     }
+    .pictur-container{
+        flex-direction: column;
+    }
+    .download-text, .download-text{
+        width: 100%;
+    }
+
+
 }
 
 
