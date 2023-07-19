@@ -129,6 +129,55 @@ main{
     max-width: 850px;
     margin: 0 auto;
 }
+
+/* Games-img-container :start */
+.online-games{
+    padding: 50px 155px;
+    margin-top: 50px;
+}
+.online-games{
+    color: #0B0223;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+
+}
+.day{
+    color: #534C64;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+.funny{
+    color: #F948B2;
+}
+.Games-img-container{
+    width: 100%;
+    min-height: 50vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+
+ 
+}
+.content-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 28px;
+}
+.Games-pic img{
+    width: 100%;
+}
+.Games-pic p{
+  color:   #534C64;
+  font-size: 8px;
+  font-weight: 500;
+}
+/* Games-img-container :End */
 /* .pictur-container :start */
 .pictur-container{
     display: flex;
